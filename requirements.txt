@@ -1,0 +1,9 @@
+pandas>=3.0,<4
+numpy>=2.0,<3
+scikit-learn>=1.8,<2
+matplotlib>=3.10,<4
+seaborn>=0.13,<1
+scipy>=1.15,<2
+statsmodels>=0.15,<1
+joblib>=1.5,<2
+streamlit>=1.40,<2

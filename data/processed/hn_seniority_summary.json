@@ -1,0 +1,37 @@
+{
+  "source": "Hacker News Search API powered by Algolia",
+  "source_api": "https://hn.algolia.com/api",
+  "official_hn_item_documentation": "https://github.com/HackerNews/API",
+  "accessed_at_utc": "2026-08-28T23:59:41.141802+00:00",
+  "coverage": {
+    "start": "2022-11-01",
+    "end": "2025-05-01"
+  },
+  "unit": "One top-level comment is one employer posting; a posting may advertise multiple roles.",
+  "classification": {
+    "software_pattern": "\\b(?:software|developer|devops|site reliability|sre|backend|back-end|front[- ]?end|full[- ]?stack|web engineer|mobile engineer|ios engineer|android engineer|data engineer|machine learning engineer|ml engineer|ai engineer|platform engineer|cloud engineer|infrastructure engineer|security engineer|qa engineer|test automation|embedded engineer|firmware engineer|engineering manager|technical lead|tech lead|solutions architect)\\b",
+    "junior_pattern": "\\b(?:junior|jr\\.?|intern|internship|new grad(?:uate)?|graduate role|entry[- ]level|early career|apprentice(?:ship)?|university hire|0[-\u2013 ]2 years|1[-\u2013 ]2 years)\\b",
+    "senior_pattern": "\\b(?:senior|sr\\.?|staff|principal|distinguished|engineering manager|director of engineering|head of engineering|software architect|solutions architect|technical lead|tech lead|team lead|lead (?:software|backend|back-end|front[- ]?end|full[- ]?stack|platform|data|ml|ai|mobile|security|infrastructure|cloud) engineer|(?:5|6|7|8|9|10)\\+? years(?: of)? experience)\\b",
+    "mixed_rule": "A software posting matching both junior and senior terms is flagged in both mention counts and labeled mixed."
+  },
+  "rows": 10749,
+  "software_posts": 9115,
+  "early_six_month_average": {
+    "junior_intern_posts": 17.5,
+    "senior_posts": 183.16666666666666,
+    "junior_intern_share": 0.04795032678365027,
+    "senior_share": 0.5040135350083887
+  },
+  "late_six_month_average": {
+    "junior_intern_posts": 13.0,
+    "senior_posts": 148.16666666666666,
+    "junior_intern_share": 0.04686400304058328,
+    "senior_share": 0.53607063806609
+  },
+  "limitations": [
+    "Hacker News is a self-selected technology community, not a representative job board.",
+    "Keyword classification measures mentions, not the number of distinct vacancies.",
+    "A top-level employer comment can contain multiple roles and seniority levels.",
+    "Deleted comments and roles described without matching terms may be missed."
+  ]
+}

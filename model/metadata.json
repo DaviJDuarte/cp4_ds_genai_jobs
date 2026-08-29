@@ -1,0 +1,29 @@
+{
+  "features": [
+    "genai_share_pct",
+    "total_postings_index_sa"
+  ],
+  "target": "software_postings_index",
+  "coverage": {
+    "start": "2022-11-01",
+    "end": "2025-05-31"
+  },
+  "selection_train_observations": 21,
+  "selection_test_observations": 10,
+  "deployment_fit_observations": 31,
+  "selected_model": "Controlled linear",
+  "feature_ranges": {
+    "genai_share_pct": [
+      0.411323367050962,
+      26.886492318867866
+    ],
+    "total_postings_index_sa": [
+      105.88645161290323,
+      147.735
+    ]
+  },
+  "target_range": [
+    62.32322580645161,
+    147.08566666666667
+  ]
+}

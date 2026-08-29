@@ -1,0 +1,59 @@
+{
+  "raw_files": {
+    "GenAI_posting.csv": {
+      "rows": 21339,
+      "columns": 3,
+      "duplicate_rows": 0,
+      "missing_cells": 0,
+      "dtypes": {
+        "date": "datetime64[us]",
+        "jobcountry": "str",
+        "GenAI_share_postings": "float64"
+      }
+    },
+    "job_postings_by_sector_US.csv": {
+      "rows": 210672,
+      "columns": 5,
+      "duplicate_rows": 0,
+      "missing_cells": 0,
+      "dtypes": {
+        "date": "datetime64[us]",
+        "jobcountry": "str",
+        "indeed_job_postings_index": "float64",
+        "variable": "str",
+        "display_name": "str"
+      }
+    },
+    "aggregate_job_postings_US.csv": {
+      "rows": 4788,
+      "columns": 5,
+      "duplicate_rows": 0,
+      "missing_cells": 0,
+      "dtypes": {
+        "date": "datetime64[us]",
+        "jobcountry": "str",
+        "indeed_job_postings_index_SA": "float64",
+        "indeed_job_postings_index_NSA": "float64",
+        "variable": "str"
+      }
+    }
+  },
+  "filtered_daily_rows": {
+    "GenAI": 943,
+    "Software Development": 943,
+    "Todos os an\u00fancios": 943
+  },
+  "monthly_dataset": {
+    "rows": 31,
+    "columns": 6,
+    "duplicate_months": 0,
+    "missing_cells": 0,
+    "response_iqr_outlier_months": [
+      "2022-11",
+      "2022-12",
+      "2023-01",
+      "2023-02"
+    ],
+    "outliers_removed": 0
+  }
+}

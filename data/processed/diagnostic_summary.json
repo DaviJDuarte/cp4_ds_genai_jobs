@@ -1,0 +1,38 @@
+{
+  "scope": "Res\u00edduos de treinamento da especifica\u00e7\u00e3o linear controlada selecionada",
+  "correlations": {
+    "software_postings_index": {
+      "software_postings_index": 1.0,
+      "genai_share_pct": -0.7814315432846946,
+      "total_postings_index_sa": 0.9360081635101566
+    },
+    "genai_share_pct": {
+      "software_postings_index": -0.7814315432846946,
+      "genai_share_pct": 1.0,
+      "total_postings_index_sa": -0.940581403714321
+    },
+    "total_postings_index_sa": {
+      "software_postings_index": 0.9360081635101566,
+      "genai_share_pct": -0.940581403714321,
+      "total_postings_index_sa": 1.0
+    }
+  },
+  "vif": {
+    "genai_share_pct": 8.672528724689977,
+    "total_postings_index_sa": 8.672528724689977
+  },
+  "durbin_watson": 0.9329937925645941,
+  "breusch_pagan": {
+    "lm_statistic": 3.249421497420022,
+    "lm_pvalue": 0.19696864039849152,
+    "f_statistic": 1.6475403025613835,
+    "f_pvalue": 0.2202616820217571
+  },
+  "jarque_bera": {
+    "statistic": 0.5599810868648385,
+    "pvalue": 0.7557908886095467
+  },
+  "cooks_threshold_4_over_n": 0.19047619047619047,
+  "influential_observations": [],
+  "max_cooks_distance": 0.17226447778547477
+}
