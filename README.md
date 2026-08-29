@@ -1,5 +1,13 @@
 # Anúncios de vagas de GenAI e desenvolvimento de software
 
+## Integrantes
+
+- Beatriz Cortêz Gomes — RM561431
+- Bruno Henrique Campos Alves — RM563986
+- Davi de Jesus Duarte — RM566316
+- Gabriel Augusto Gonçalves Pereira — RM564126
+- Raphaela Oliveira Tatto — RM572059
+
 ## Pergunta de pesquisa
 
 A prevalência de linguagem relacionada à IA generativa ajuda a explicar a variação do índice de anúncios de vagas de desenvolvimento de software do Indeed, depois de considerar as condições gerais de contratação? Este é um projeto de associação observacional, não um estudo causal.
