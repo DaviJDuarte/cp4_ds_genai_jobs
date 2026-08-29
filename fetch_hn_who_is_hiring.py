@@ -56,7 +56,7 @@ SENIOR_PATTERN = re.compile(
 
 
 def fetch_json(url: str, attempts: int = 4) -> dict:
-    request = Request(url, headers={"User-Agent": "FIAP-CP4-educational-analysis/1.0"})
+    request = Request(url, headers={"User-Agent": "genai-jobs-educational-analysis/1.0"})
     for attempt in range(attempts):
         try:
             with urlopen(request, timeout=45) as response:

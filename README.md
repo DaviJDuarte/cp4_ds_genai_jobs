@@ -48,10 +48,9 @@ Assim, o volume de publicações de empregadores de software no HN diminuiu para
 
 ## Instalação e execução
 
-A partir da raiz do repositório:
+A partir da raiz do repositório clonado:
 
 ```powershell
-cd cp4/genai_jobs
 python -m pip install -r requirements.txt
 ```
 
